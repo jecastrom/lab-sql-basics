@@ -64,6 +64,8 @@ WHERE
             loan
     );
 /*
+ Query 6:
+ 
  What is the loan amount of the lowest 5 account_ids in the 
  loan table? Show the account_id and the corresponding amount
  */
@@ -74,5 +76,20 @@ FROM
     loan
 ORDER BY
     account_id ASC
+LIMIT
+    5;
+/*
+ Query 7
+ What are the account_ids with the lowest loan amount 
+ that have a loan duration of 60 in the loan table?
+ */
+SELECT
+    account_id
+FROM
+    loan
+WHERE
+    duration = 60
+ORDER BY
+    amount ASC
 LIMIT
     5;
