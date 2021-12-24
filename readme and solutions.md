@@ -1,6 +1,6 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Lab | SQL basics (selection and aggregation)
+# Lab SQL basics (selection and aggregation)
 
 Go to:
 - <a href="#Query-1">Query 1</a>
@@ -68,7 +68,7 @@ LIMIT
 ```
 ![image](https://user-images.githubusercontent.com/63274055/147350639-c8430797-5c4c-48e1-81ff-729b80c32018.png)          
 
-<a href="#Lab-|-SQL-basics-(selection-and-aggregation)">Back to Top</a>
+<a href="#Lab-SQL-basics-(selection-and-aggregation)">Back to Top</a>
 
 
 
