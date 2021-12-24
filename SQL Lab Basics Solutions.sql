@@ -192,7 +192,7 @@ GROUP BY
  */
 SELECT
     account_id,
-    sum(amount)
+    sum(amount) AS 'total loan amount'
 FROM
     loan
 GROUP BY
