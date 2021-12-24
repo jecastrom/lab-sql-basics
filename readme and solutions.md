@@ -117,6 +117,16 @@ B
 C
 D
 ```
+#### Answer:
+```sql
+SELECT
+    DISTINCT(STATUS)
+FROM
+    loan
+ORDER BY
+    STATUS ASC;
+```
+
 
 ### Query 5
 
