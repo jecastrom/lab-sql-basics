@@ -407,6 +407,19 @@ Expected result:
 8	69
 9	60
 ```
+#### Answer:
+```sql
+SELECT
+    district_id,
+    count(client_id)
+FROM
+    client
+WHERE
+    district_id < 10
+GROUP BY
+    district_id;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 14
 
