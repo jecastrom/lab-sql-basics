@@ -15,6 +15,8 @@ Go to:
 - <a href="#Query-10">Query 10</a>
 - <a href="#Query-11">Query 11</a>
 - <a href="#Query-12">Query 12</a>
+- <a href="#Query-13">Query 13</a>
+- <a href="#Query-14">Query 14</a>
 - <a href="#Query-15">Query 15</a>
 - <a href="#Query-16">Query 16</a>
 - <a href="#Query-17">Query 17</a>
