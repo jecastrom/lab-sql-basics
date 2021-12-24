@@ -26,3 +26,15 @@ FROM
     client
 WHERE
     district_id = 72;
+/*
+ Query 3
+ Get the 3 lowest amounts in the loan table.
+ */
+SELECT
+    amount
+FROM
+    loan
+ORDER BY
+    amount ASC
+LIMIT
+    3;

@@ -83,6 +83,18 @@ Expected result:
 5148
 7656
 ```
+#### Answer
+```sql
+SELECT
+    amount
+FROM
+    loan
+ORDER BY
+    amount ASC
+LIMIT
+    3;
+```
+
 
 ### Query 4
 
