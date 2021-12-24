@@ -364,6 +364,8 @@ ORDER BY
 LIMIT
     10;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png)
+
 
 
 ### Query 13
