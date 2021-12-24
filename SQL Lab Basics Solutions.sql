@@ -118,3 +118,18 @@ FROM
     `order`
 WHERE
     account_id = 34
+    /*Query 10
+     In the order table, which account_ids were responsible for orders 
+     between order_id 29540 and order_id 29560 (inclusive)?
+     */
+SELECT
+    DISTINCT(account_id)
+FROM
+    `order`
+WHERE
+    order_id BETWEEN 29540
+    AND 29560;
+/*Query 11
+ In the order table, what are the individual amounts 
+ that were sent to (account_to) id 30067122?
+ */
