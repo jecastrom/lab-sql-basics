@@ -38,3 +38,36 @@ ORDER BY
     amount ASC
 LIMIT
     3;
+/*
+ Query 4
+ What are the possible values for status, ordered alphabetically in ascending order in the loan table?
+ */
+SELECT
+    DISTINCT(STATUS)
+FROM
+    loan
+ORDER BY
+    STATUS ASC;
+/*
+ Query 5
+ What is the loan_id of the highest payment received in the loan table?
+ */
+SELECT
+    loan_id,
+    payments
+FROM
+    loan
+WHERE
+    payments = (
+        SELECT
+            min(payments)
+        FROM
+            loan
+    );
+SELECT
+    loan_id,
+    payments
+FROM
+    loan
+ORDER BY
+    payments DESC;

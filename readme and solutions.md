@@ -94,6 +94,15 @@ ORDER BY
 LIMIT
     3;
 ```
+#### Answer:
+```sql
+SELECT
+    DISTINCT(STATUS)
+FROM
+    loan
+ORDER BY
+    STATUS ASC;
+```
 
 
 ### Query 4
