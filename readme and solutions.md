@@ -201,6 +201,19 @@ Expected result:
 37	    318480
 38	    110736
 ```
+#### Answer:
+
+```sql
+SELECT
+    account_id,
+    amount
+FROM
+    loan
+ORDER BY
+    account_id ASC
+LIMIT
+    5;
+```
 
 ### Query 7
 
