@@ -94,6 +94,7 @@ ORDER BY
 LIMIT
     3;
 ```
+<<<<<<< HEAD
 #### Answer:
 ```sql
 SELECT
@@ -103,6 +104,9 @@ FROM
 ORDER BY
     STATUS ASC;
 ```
+=======
+![image](https://user-images.githubusercontent.com/63274055/147352044-d9e524ec-927c-4578-9150-0f2a7c6627eb.png)
+>>>>>>> c2511992d4872a55c32410b8ad39953af014131d
 
 
 ### Query 4
