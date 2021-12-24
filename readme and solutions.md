@@ -93,6 +93,7 @@ ORDER BY
     amount ASC
 LIMIT
     3;
+![image](https://user-images.githubusercontent.com/63274055/147352044-d9e524ec-927c-4578-9150-0f2a7c6627eb.png)
 ```
 
 
