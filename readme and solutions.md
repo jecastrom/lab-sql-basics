@@ -482,6 +482,8 @@ ORDER BY
 LIMIT
     10;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147372361-86417069-b35a-46b1-9798-862457d1d58a.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 16
