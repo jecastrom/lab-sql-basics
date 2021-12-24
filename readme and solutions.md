@@ -92,7 +92,7 @@ WHERE
 ```
 ![image](https://user-images.githubusercontent.com/63274055/147351629-c494dbe3-83d0-4eeb-89b6-79fe44622ed9.png)
 
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
 ### Query 3
 
@@ -125,7 +125,7 @@ FROM
 ORDER BY
     STATUS ASC;
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
 ### Query 4
 
@@ -149,7 +149,7 @@ ORDER BY
     STATUS ASC;
 ```
 
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 5
 
 What is the `loan_id` of the highest payment received in the `loan` table?
@@ -208,7 +208,7 @@ WHERE
 
 
 
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 6
 
 What is the loan `amount` of the lowest 5 `account_id`s in the `loan` table? Show the `account_id` and the corresponding `amount`
@@ -236,7 +236,7 @@ ORDER BY
 LIMIT
     5;
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 7
 
 What are the `account_id`s with the lowest loan `amount` that have a loan `duration` of 60 in the `loan` table?
@@ -263,7 +263,7 @@ ORDER BY
 LIMIT
     5;
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 8
 
 What are the unique values of `k_symbol` in the `order` table?
@@ -288,7 +288,7 @@ ORDER BY
     k_symbol ASC;
 ```
 
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 9
 
 In the `order` table, what are the `order_id`s of the client with the `account_id` 34?
@@ -309,7 +309,7 @@ FROM
 WHERE
     account_id = 34
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 10
 
 In the `order` table, which `account_id`s were responsible for orders between `order_id` 29540 and `order_id` 29560 (inclusive)?
@@ -332,7 +332,7 @@ WHERE
     order_id BETWEEN 29540
     AND 29560;
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 11
 
 In the `order` table, what are the individual amounts that were sent to (`account_to`) id 30067122?
@@ -351,7 +351,7 @@ FROM
 WHERE
     account_to = 30067122;
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 12
 
 In the `trans` table, show the `trans_id`, `date`, `type` and `amount` of the 10 first transactions from `account_id` 793 in chronological order, from newest to oldest.
@@ -389,7 +389,7 @@ LIMIT
 ![image](https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png)
 
 
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 13
 
 In the `client` table, of all districts with a `district_id` lower than 10, how many clients are from each `district_id`? Show the results sorted by the `district_id` in ascending order.
@@ -407,7 +407,7 @@ Expected result:
 8	69
 9	60
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 14
 
 In the `card` table, how many cards exist for each `type`? Rank the result starting with the most frequent `type`.
@@ -419,7 +419,7 @@ classic	659
 junior	145
 gold	88
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 15
 
 Using the `loan` table, print the top 10 `account_id`s based on the sum of all of their loan amounts.
@@ -438,7 +438,7 @@ Expected result:
 7966	473280
 339	    468060
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 16
 
 In the `loan` table, retrieve the number of loans issued for each day, before (excl) 930907, ordered by date in descending order.
@@ -452,7 +452,7 @@ Expected result:
 930711	1
 930705	1
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 17
 
 In the `loan` table, for each day in December 1997, count the number of loans issued for each unique loan duration, ordered by date and duration, both in ascending order. You can ignore days without any loans in your output.
@@ -475,7 +475,7 @@ Expected result:
 971225	24	1
 971225	60	1
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 18
 
 In the `trans` table, for `account_id` 396, sum the amount of transactions for each type (`VYDAJ` = Outgoing, `PRIJEM` = Incoming). Your output should have the `account_id`, the `type` and the sum of amount, named as `total_amount`. Sort alphabetically by type.
@@ -486,7 +486,7 @@ Expected result:
 396	PRIJEM	1028138.6999740601
 396	VYDAJ	1485814.400024414
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 19
 
 From the previous output, translate the values for `type` to English, rename the column to `transaction_type`, round `total_amount` down to an integer
@@ -497,7 +497,7 @@ Expected result:
 396	INCOMING	1028138
 396	OUTGOING	1485814
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 20
 
 From the previous result, modify your query so that it returns only one row, with a column for incoming amount, outgoing amount and the difference.
@@ -507,7 +507,7 @@ Expected result:
 ```shell
 396	1028138	1485814	-457676
 ```
-
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 21
 
 Continuing with the previous example, rank the top 10 `account_id`s based on their difference.
