@@ -25,6 +25,4 @@ SELECT
 FROM
     client
 WHERE
-    district_id = 72
-ORDER BY
-    client_id ASC;
+    district_id = 72;
