@@ -53,14 +53,13 @@ ORDER BY
  What is the loan_id of the highest payment received in the loan table?
  */
 SELECT
-    loan_id,
-    payments
+    loan_id
 FROM
     loan
 WHERE
     payments = (
         SELECT
-            min(payments)
+            max(payments)
         FROM
             loan
     );
