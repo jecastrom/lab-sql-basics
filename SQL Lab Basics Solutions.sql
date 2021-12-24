@@ -117,11 +117,11 @@ SELECT
 FROM
     `order`
 WHERE
-    account_id = 34
-    /*Query 10
-     In the order table, which account_ids were responsible for orders 
-     between order_id 29540 and order_id 29560 (inclusive)?
-     */
+    account_id = 34;
+/*Query 10
+ In the order table, which account_ids were responsible for orders 
+ between order_id 29540 and order_id 29560 (inclusive)?
+ */
 SELECT
     DISTINCT(account_id)
 FROM
