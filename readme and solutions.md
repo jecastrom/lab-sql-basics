@@ -278,6 +278,15 @@ Expected result:
 29446
 29447
 ```
+#### Answer:
+```sql
+SELECT
+    order_id
+FROM
+    `order`
+WHERE
+    account_id = 34
+```
 
 ### Query 10
 

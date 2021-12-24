@@ -107,3 +107,14 @@ FROM
     `order`
 ORDER BY
     k_symbol ASC;
+/*
+ Query 9
+ In the order table, what are the order_ids of the 
+ client with the account_id 34?
+ */
+SELECT
+    order_id
+FROM
+    `order`
+WHERE
+    account_id = 34
