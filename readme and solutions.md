@@ -33,7 +33,22 @@ Expected result:
 22
 23
 28
+
 ```
+#### Answer:
+```sql
+SELECT
+    client_id
+FROM
+    client
+WHERE
+    district_id = 1
+LIMIT
+    5;
+```
+![image](https://user-images.githubusercontent.com/63274055/147350639-c8430797-5c4c-48e1-81ff-729b80c32018.png)
+
+
 
 ### Query 2
 
