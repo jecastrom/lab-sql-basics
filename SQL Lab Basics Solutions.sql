@@ -63,19 +63,3 @@ WHERE
         FROM
             loan
     );
-/*Query in asc order*/
-SELECT
-    loan_id,
-    payments
-FROM
-    loan
-ORDER BY
-    payments ASC;
-/*Query in desc order*/
-SELECT
-    loan_id,
-    payments
-FROM
-    loan
-ORDER BY
-    payments DESC;
