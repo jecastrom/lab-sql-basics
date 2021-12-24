@@ -436,6 +436,17 @@ classic	659
 junior	145
 gold	88
 ```
+#### Answer:
+```sql
+SELECT
+    TYPE,
+    count(card_id) AS card_quantity
+FROM
+    card
+GROUP BY
+    `type`;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 15
 

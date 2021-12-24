@@ -173,3 +173,15 @@ WHERE
     district_id < 10
 GROUP BY
     district_id;
+/*
+ Query 14
+ In the card table, how many cards exist for each type? 
+ Rank the result starting with the most frequent type.
+ */
+SELECT
+    TYPE,
+    count(card_id) AS card_quantity
+FROM
+    card
+GROUP BY
+    `type`;
