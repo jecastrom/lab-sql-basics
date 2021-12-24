@@ -1,6 +1,25 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Lab | SQL basics (selection and aggregation)
+# Lab | SQL basics (selection and aggregation)     
+Go to:
+- <a href="#Query-1">Query 1</a>
+- <a href="#Query-2">Query 2</a>
+- <a href="#Query-3">Query 3</a>
+- <a href="#Query-4">Query 4</a>
+- <a href="#Query-5">Query 5</a>
+- <a href="#Query-6">Query 6</a>
+- <a href="#Query-7">Query 7</a>
+- <a href="#Query-8">Query 8</a>
+- <a href="#Query-9">Query 9</a>
+- <a href="#Query-10">Query 10</a>
+- <a href="#Query-11">Query 11</a>
+- <a href="#Query-12">Query 12</a>
+- <a href="#Query-15">Query 15</a>
+- <a href="#Query-16">Query 16</a>
+- <a href="#Query-17">Query 17</a>
+- <a href="#Query-18">Query 18</a>
+- <a href="#Query-20">Query 20</a>
+- <a href="#Query-21">Query 21</a>
 
 ## Introduction
 
