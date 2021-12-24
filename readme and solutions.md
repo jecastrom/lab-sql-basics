@@ -151,6 +151,8 @@ FROM
 ORDER BY
     payments ASC;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147358693-f964e6bd-bc4e-4700-83b5-4b136bec08b7.png)
+
 we can see that the lowest payment of 304 corresponds with the `loan_id` 6312.        
 If we run the same query in DESC order:      
 ```sql
@@ -162,23 +164,25 @@ FROM
 ORDER BY
     payments DESC;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147358732-3fba9730-ff4d-4120-a955-571ce334fcf5.png)
+
 The highest payment of 9910 corresponds to the `loan_id` 6415.     
 
 So my answer query would be:
 ```sql
 SELECT
-    loan_id,
-    payments
+    loan_id
 FROM
     loan
 WHERE
     payments = (
         SELECT
-            min(payments)
+            max(payments)
         FROM
             loan
     );
 ```
+![image](https://user-images.githubusercontent.com/63274055/147358889-bdcd876c-6ac0-408b-98b3-02ca2d37267e.png)
 
 
 
