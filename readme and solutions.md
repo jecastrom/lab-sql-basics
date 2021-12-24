@@ -499,6 +499,21 @@ Expected result:
 930711	1
 930705	1
 ```
+#### Answer:
+```sql
+SELECT
+    `date`,
+    count(loan_id)
+FROM
+    loan
+WHERE
+    `date` < 930907
+GROUP BY
+    `date`
+ORDER BY
+    `date` DESC;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 17
 

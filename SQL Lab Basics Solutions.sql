@@ -201,3 +201,19 @@ ORDER BY
     amount DESC
 LIMIT
     10;
+/*
+ Query 16
+ In the loan table, retrieve the number of loans issued for each day, 
+ before (excl) 930907, ordered by date in descending order.
+ */
+SELECT
+    `date`,
+    count(loan_id)
+FROM
+    loan
+WHERE
+    `date` < 930907
+GROUP BY
+    `date`
+ORDER BY
+    `date` DESC;
