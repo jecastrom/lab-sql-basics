@@ -513,6 +513,8 @@ GROUP BY
 ORDER BY
     `date` DESC;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147372691-4007b110-3532-48dc-906f-18b7fff4dce1.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 17
