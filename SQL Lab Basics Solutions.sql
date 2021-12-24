@@ -139,3 +139,22 @@ FROM
     `order`
 WHERE
     account_to = 30067122;
+/*
+ Query 12
+ In the trans table, show the trans_id, date, type and amount 
+ of the 10 first transactions from account_id 793 in chronological 
+ order, from newest to oldest.
+ */
+SELECT
+    trans_id,
+    date,
+    TYPE,
+    amount
+FROM
+    trans
+WHERE
+    account_id =(793)
+ORDER BY
+    date DESC
+LIMIT
+    10;

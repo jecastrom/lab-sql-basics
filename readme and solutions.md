@@ -348,6 +348,23 @@ Expected result:
 233247	981111	VYDAJ	851
 233175	981107	VYDAJ	204
 ```
+#### Answer:
+```sql
+SELECT
+    trans_id,
+    date,
+    TYPE,
+    amount
+FROM
+    trans
+WHERE
+    account_id =(793)
+ORDER BY
+    date DESC
+LIMIT
+    10;
+```
+
 
 ### Query 13
 
