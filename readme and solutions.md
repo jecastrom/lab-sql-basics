@@ -256,6 +256,16 @@ POJISTNE
 SIPO
 UVER
 ```
+#### Answer:
+```sql
+SELECT
+    DISTINCT k_symbol
+FROM
+    `order`
+ORDER BY
+    k_symbol ASC;
+```
+
 
 ### Query 9
 
