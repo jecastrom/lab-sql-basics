@@ -300,6 +300,16 @@ Expected result:
 96
 97
 ```
+#### Answer:
+```sql
+SELECT
+    DISTINCT(account_id)
+FROM
+    `order`
+WHERE
+    order_id BETWEEN 29540
+    AND 29560;
+```
 
 ### Query 11
 
