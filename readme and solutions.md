@@ -66,6 +66,7 @@ LIMIT
     5;
 ```
 ![image](https://user-images.githubusercontent.com/63274055/147350639-c8430797-5c4c-48e1-81ff-729b80c32018.png)
+<a href="#Lab-|-SQL-basics-(selection-and-aggregation)">Back to Top</a>
 
 
 
