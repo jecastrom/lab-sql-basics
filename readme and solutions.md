@@ -468,6 +468,21 @@ Expected result:
 7966	473280
 339	    468060
 ```
+#### Answer:
+```sql
+SELECT
+    account_id,
+    sum(amount)
+FROM
+    loan
+GROUP BY
+    account_id
+ORDER BY
+    amount DESC
+LIMIT
+    10;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 16
 
