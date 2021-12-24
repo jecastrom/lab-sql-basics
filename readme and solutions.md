@@ -59,6 +59,18 @@ Expected result:
 ```shell
 13576
 ```
+### Answer:
+```sql
+SELECT
+    max(client_id)
+FROM
+    client
+WHERE
+    district_id = 72;
+```
+![image](https://user-images.githubusercontent.com/63274055/147351629-c494dbe3-83d0-4eeb-89b6-79fe44622ed9.png)
+
+
 
 ### Query 3
 
