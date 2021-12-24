@@ -446,6 +446,8 @@ FROM
 GROUP BY
     `type`;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147371454-e0a32df6-66e4-447d-a5bc-1a5ee7f79d99.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 15
