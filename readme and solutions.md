@@ -419,6 +419,8 @@ WHERE
 GROUP BY
     district_id;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147371044-b1fba099-8e9d-4fff-a7d3-5f695df327ad.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 14
