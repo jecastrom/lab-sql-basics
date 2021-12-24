@@ -320,6 +320,15 @@ Expected result:
 ```shell
 5123
 ```
+#### Answer:
+```sql
+SELECT
+    amount
+FROM
+    `order`
+WHERE
+    account_to = 30067122;
+```
 
 ### Query 12
 
