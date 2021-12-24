@@ -137,6 +137,51 @@ Expected result:
 ```shell
 6312
 ```
+#### Answer:
+
+I believe there is a mistake in the expected answer. The `loan_id` 6312 corresponds to the lowest payment
+
+if run this query:
+```sql
+SELECT
+    loan_id,
+    payments
+FROM
+    loan
+ORDER BY
+    payments ASC;
+```
+we can see that the lowest payment of 304 corresponds with the `loan_id` 6312.        
+If we run the same query in DESC order:      
+```sql
+SELECT
+    loan_id,
+    payments
+FROM
+    loan
+ORDER BY
+    payments DESC;
+```
+The highest payment of 9910 corresponds to the `loan_id` 6415.     
+
+So my answer query would be:
+```sql
+SELECT
+    loan_id,
+    payments
+FROM
+    loan
+WHERE
+    payments = (
+        SELECT
+            min(payments)
+        FROM
+            loan
+    );
+```
+
+
+
 
 ### Query 6
 
