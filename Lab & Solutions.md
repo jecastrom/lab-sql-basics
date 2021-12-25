@@ -677,6 +677,8 @@ FROM
 WHERE
     account_id = 396;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png)
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 21
 
