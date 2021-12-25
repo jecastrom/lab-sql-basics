@@ -119,6 +119,8 @@ ORDER BY
 LIMIT
     3;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386510-08658cff-bbdf-46d1-8b9a-27ed84ee40f8.png)
+
 #### Answer:
 ```sql
 SELECT
@@ -151,6 +153,8 @@ FROM
 ORDER BY
     STATUS ASC;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386534-9c96f948-3ac5-4d5c-b22e-5410b38b845f.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 5
@@ -239,6 +243,8 @@ ORDER BY
 LIMIT
     5;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386575-65a62bc3-81cb-46f4-9c23-ddcf387002b0.png)
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 7
 
@@ -266,6 +272,8 @@ ORDER BY
 LIMIT
     5;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386592-33330c7c-0442-40dc-9676-0fa6cce419d5.png)
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 8
 
@@ -290,6 +298,8 @@ FROM
 ORDER BY
     k_symbol ASC;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386608-5d76057a-6649-4a11-9ec0-0ac1f566c641.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 9
@@ -312,6 +322,8 @@ FROM
 WHERE
     account_id = 34
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386623-5d1ae8e1-46dc-47de-ae27-bfe4ff5141a5.png)
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 10
 
@@ -335,6 +347,8 @@ WHERE
     order_id BETWEEN 29540
     AND 29560;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386639-69e959aa-787d-4e16-a1ae-f2876336e2ff.png)
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 11
 
@@ -354,6 +368,8 @@ FROM
 WHERE
     account_to = 30067122;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147386649-3e3205b0-51af-46fe-aad5-247b2ce020ea.png)
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 12
 
