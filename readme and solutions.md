@@ -556,6 +556,8 @@ ORDER BY
     `date`,
     duration;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147375353-93b57472-9944-4cdf-9131-a004571b7e19.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 18
