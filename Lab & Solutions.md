@@ -97,7 +97,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147351629-c494dbe3-83d0-4eeb-89b6-79fe44622ed9.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147351629-c494dbe3-83d0-4eeb-89b6-79fe44622ed9.png" alt="Drawing" style="width: 300px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
@@ -124,7 +124,7 @@ LIMIT
     3;
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147386510-08658cff-bbdf-46d1-8b9a-27ed84ee40f8.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386510-08658cff-bbdf-46d1-8b9a-27ed84ee40f8.png" alt="Drawing" style="width: 150px;"/>
 
 #### Answer:
 
@@ -153,7 +153,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147386534-9c96f948-3ac5-4d5c-b22e-5410b38b845f.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386534-9c96f948-3ac5-4d5c-b22e-5410b38b845f.png" alt="Drawing" style="width: 150px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
@@ -198,7 +198,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147358732-3fba9730-ff4d-4120-a955-571ce334fcf5.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147358732-3fba9730-ff4d-4120-a955-571ce334fcf5.png" alt="Drawing" style="width: 250px;"/>
 
 The highest payment of 9910 corresponds to the `loan_id` 6415.     
 
@@ -282,7 +282,7 @@ LIMIT
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147386592-33330c7c-0442-40dc-9676-0fa6cce419d5.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386592-33330c7c-0442-40dc-9676-0fa6cce419d5.png" alt="Drawing" style="width: 150px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -310,7 +310,7 @@ ORDER BY
     k_symbol ASC;
 ```
 
-<img src="https://user-images.githubusercontent.com/63274055/147386608-5d76057a-6649-4a11-9ec0-0ac1f566c641.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386608-5d76057a-6649-4a11-9ec0-0ac1f566c641.png" alt="Drawing" style="width: 150px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 9
@@ -335,7 +335,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147386623-5d1ae8e1-46dc-47de-ae27-bfe4ff5141a5.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386623-5d1ae8e1-46dc-47de-ae27-bfe4ff5141a5.png" alt="Drawing" style="width: 150px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 10
@@ -362,7 +362,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147386639-69e959aa-787d-4e16-a1ae-f2876336e2ff.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386639-69e959aa-787d-4e16-a1ae-f2876336e2ff.png" alt="Drawing" style="width: 150px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 11
@@ -385,7 +385,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147386649-3e3205b0-51af-46fe-aad5-247b2ce020ea.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386649-3e3205b0-51af-46fe-aad5-247b2ce020ea.png" alt="Drawing" style="width: 150px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 12
@@ -424,7 +424,7 @@ LIMIT
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png" alt="Drawing" style="width: 250px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png" alt="Drawing" style="width: 300px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -459,7 +459,7 @@ GROUP BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147371044-b1fba099-8e9d-4fff-a7d3-5f695df327ad.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147371044-b1fba099-8e9d-4fff-a7d3-5f695df327ad.png" alt="Drawing" style="width: 300px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 14
@@ -485,7 +485,7 @@ GROUP BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147371454-e0a32df6-66e4-447d-a5bc-1a5ee7f79d99.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147371454-e0a32df6-66e4-447d-a5bc-1a5ee7f79d99.png" alt="Drawing" style="width: 300px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -523,7 +523,7 @@ LIMIT
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147372361-86417069-b35a-46b1-9798-862457d1d58a.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147372361-86417069-b35a-46b1-9798-862457d1d58a.png" alt="Drawing" style="width: 300px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -601,7 +601,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147375353-93b57472-9944-4cdf-9131-a004571b7e19.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147375353-93b57472-9944-4cdf-9131-a004571b7e19.png" alt="Drawing" style="width: 300px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -632,7 +632,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147374666-2d54956b-ddaf-4ee0-99a0-b35c454d0ef7.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147374666-2d54956b-ddaf-4ee0-99a0-b35c454d0ef7.png" alt="Drawing" style="width: 350px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -667,7 +667,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147375587-cb25a152-0dc4-4f8a-8a85-96060e27cb47.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147375587-cb25a152-0dc4-4f8a-8a85-96060e27cb47.png" alt="Drawing" style="width: 350px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -727,7 +727,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png" alt="Drawing" style="width: 300px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png" alt="Drawing" style="width: 350px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
@@ -780,7 +780,7 @@ LIMIT
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147386246-de63ac7d-15c4-450d-bbe6-35409d21cec7.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147386246-de63ac7d-15c4-450d-bbe6-35409d21cec7.png" alt="Drawing" style="width: 250px;"/>
 
 
 <a href="https://github.com/jecastrom/lab-sql-basics/blob/0e5fe7565e1b1d8c5ebe787975d12bbb44580c5e/files_for_lab/SQL%20Lab%20Basics%20code%20only.sql">Click here SQL Lab Basics Solution code only on a .sql file</a>    
