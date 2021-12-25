@@ -782,4 +782,4 @@ LIMIT
 <img src="https://user-images.githubusercontent.com/63274055/147386246-de63ac7d-15c4-450d-bbe6-35409d21cec7.png" alt="Drawing" style="width: 200px;"/>
 
 
-<a href="https://github.com/jecastrom/lab-sql-basics/blob/85222dff5d2a5d0b527dcb9cacfc1cecd6bb4f64/files_for_lab/SQL%20Lab%20Basics%20code%20only.sql">SQL Lab Basics Solution code only on a .sql file</a>
+<a href="https://github.com/jecastrom/lab-sql-basics/blob/85222dff5d2a5d0b527dcb9cacfc1cecd6bb4f64/files_for_lab/SQL%20Lab%20Basics%20code%20only.sql">Click here SQL Lab Basics Solution code only on a .sql file</a>
