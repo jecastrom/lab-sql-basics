@@ -548,6 +548,22 @@ Expected result:
 396	PRIJEM	1028138.6999740601
 396	VYDAJ	1485814.400024414
 ```
+#### Answer:
+```sql
+SELECT
+    account_id,
+    TYPE,
+    sum(amount) AS 'total_amount'
+FROM
+    trans
+WHERE
+    account_id = 396
+GROUP BY
+    TYPE
+ORDER BY
+    TYPE;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 19
 

@@ -217,3 +217,28 @@ GROUP BY
     `date`
 ORDER BY
     `date` DESC;
+/*
+ Query 17
+ In the loan table, for each day in December 1997, count the number of 
+ loans issued for each unique loan duration, ordered by date and duration, 
+ both in ascending order. You can ignore days without any loans in your output.
+ */
+/*
+ Query 18
+ In the trans table, for account_id 396, sum the amount of transactions for each 
+ type (VYDAJ = Outgoing, PRIJEM = Incoming). Your output should have the 
+ account_id, the type and the sum of amount, named as total_amount. 
+ Sort alphabetically by type.
+ */
+SELECT
+    account_id,
+    TYPE,
+    sum(amount) AS 'total_amount'
+FROM
+    trans
+WHERE
+    account_id = 396
+GROUP BY
+    TYPE
+ORDER BY
+    TYPE;
