@@ -698,3 +698,33 @@ Expected result:
 2227	696564
 6473	692580
 ```
+#### Answer:
+```sql
+SELECT
+    account_id,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            ) - floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS balance
+FROM
+    trans
+GROUP BY
+    account_id
+ORDER BY
+    2 DESC
+LIMIT
+    10;
+```
+
