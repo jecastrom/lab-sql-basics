@@ -278,3 +278,52 @@ GROUP BY
     `TYPE`
 ORDER BY
     `TYPE`;
+/*
+ Query 20
+ From the previous result, modify your query so that it returns 
+ only one row, with a column for incoming amount, outgoing amount 
+ and the difference.
+ 
+ */
+SELECT
+    account_id,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            )
+    ) AS incoming,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS outgoing,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            ) - floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS balance
+FROM
+    trans
+WHERE
+    account_id = 396;

@@ -632,6 +632,51 @@ Expected result:
 ```shell
 396	1028138	1485814	-457676
 ```
+#### Answer: 
+```sql
+SELECT
+    account_id,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            )
+    ) AS incoming,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS outgoing,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            ) - floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS balance
+FROM
+    trans
+WHERE
+    account_id = 396;
+```
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 21
 
