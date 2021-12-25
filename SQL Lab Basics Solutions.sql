@@ -246,30 +246,8 @@ ORDER BY
  */
 SELECT
     account_id,
-    TYPE,
+    `TYPE`,
     sum(amount) AS 'total_amount'
-FROM
-    trans
-WHERE
-    account_id = 396
-GROUP BY
-    TYPE
-ORDER BY
-    TYPE;
-/*
- Query 19
- From the previous output, translate the values for type to English, 
- rename the column to transaction_type, round total_amount 
- down to an integer
- */
-SELECT
-    account_id,
-    CASE
-        `TYPE`
-        WHEN `TYPE` = 'PRIJEM' THEN 'Outgoing'
-        WHEN `TYPE` = 'VYDAJ' THEN 'Incoming'
-    END AS transaction_type,
-    floor(sum(amount)) AS 'total_amount'
 FROM
     trans
 WHERE
@@ -278,3 +256,20 @@ GROUP BY
     `TYPE`
 ORDER BY
     `TYPE`;
+/*
+ Query 19
+ From the previous output, translate the values for type to English, 
+ rename the column to transaction_type, round total_amount 
+ down to an integer
+ */
+SELECT account_id, 
+CASE `TYPE`
+when `TYPE` = 'PRIJEM' then 'Outgoing'
+when `TYPE` = 'VYDAJ' then 'Incoming'
+end as transaction_type,
+floor(sum(amount)) AS 'total_amount'
+FROM trans
+WHERE account_id = 396
+GROUP BY `TYPE`
+ORDER BY `TYPE`;
+ 

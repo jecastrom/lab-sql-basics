@@ -599,6 +599,26 @@ Expected result:
 396	INCOMING	1028138
 396	OUTGOING	1485814
 ```
+#### Answer:
+```sql
+SELECT
+    account_id,
+    CASE
+        `TYPE`
+        WHEN `TYPE` = 'PRIJEM' THEN 'Outgoing'
+        WHEN `TYPE` = 'VYDAJ' THEN 'Incoming'
+    END AS transaction_type,
+    floor(sum(amount)) AS 'total_amount'
+FROM
+    trans
+WHERE
+    account_id = 396
+GROUP BY
+    `TYPE`
+ORDER BY
+    `TYPE`;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 20
 
