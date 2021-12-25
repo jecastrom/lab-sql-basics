@@ -221,6 +221,7 @@ WHERE
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
+
 ### Query 6
 
 What is the loan `amount` of the lowest 5 `account_id`s in the `loan` table? Show the `account_id` and the corresponding `amount`
@@ -248,7 +249,7 @@ ORDER BY
 LIMIT
     5;
 ```
-![image]()
+
 
 <img src="https://user-images.githubusercontent.com/63274055/147386575-65a62bc3-81cb-46f4-9c23-ddcf387002b0.png" alt="Drawing" style="width: 200px;"/>
 
@@ -782,4 +783,5 @@ LIMIT
 <img src="https://user-images.githubusercontent.com/63274055/147386246-de63ac7d-15c4-450d-bbe6-35409d21cec7.png" alt="Drawing" style="width: 200px;"/>
 
 
-<a href="https://github.com/jecastrom/lab-sql-basics/blob/0e5fe7565e1b1d8c5ebe787975d12bbb44580c5e/files_for_lab/SQL%20Lab%20Basics%20code%20only.sql">Click here SQL Lab Basics Solution code only on a .sql file</a>
+<a href="https://github.com/jecastrom/lab-sql-basics/blob/0e5fe7565e1b1d8c5ebe787975d12bbb44580c5e/files_for_lab/SQL%20Lab%20Basics%20code%20only.sql">Click here SQL Lab Basics Solution code only on a .sql file</a>    
+<a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
