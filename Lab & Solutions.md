@@ -631,7 +631,7 @@ ORDER BY
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147374666-2d54956b-ddaf-4ee0-99a0-b35c454d0ef7.png" alt="Drawing" style="width: 250px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147374666-2d54956b-ddaf-4ee0-99a0-b35c454d0ef7.png" alt="Drawing" style="width: 300px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
