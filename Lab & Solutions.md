@@ -69,7 +69,7 @@ WHERE
 LIMIT
     5;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147350639-c8430797-5c4c-48e1-81ff-729b80c32018.png) 
+
 <img src="https://user-images.githubusercontent.com/63274055/147350639-c8430797-5c4c-48e1-81ff-729b80c32018.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
