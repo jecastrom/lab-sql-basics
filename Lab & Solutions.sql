@@ -327,3 +327,8 @@ FROM
     trans
 WHERE
     account_id = 396;
+/*
+ Query 21
+ Continuing with the previous example, rank the top 10 account_ids 
+ based on their difference.
+ */
