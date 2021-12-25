@@ -223,6 +223,20 @@ ORDER BY
  loans issued for each unique loan duration, ordered by date and duration, 
  both in ascending order. You can ignore days without any loans in your output.
  */
+SELECT
+    `date`,
+    duration,
+    count(loan_id) AS number_of_loans
+FROM
+    loan
+WHERE
+    date LIKE '9712%'
+GROUP BY
+    `date`,
+    duration
+ORDER BY
+    `date`,
+    duration;
 /*
  Query 18
  In the trans table, for account_id 396, sum the amount of transactions for each 
@@ -242,3 +256,9 @@ GROUP BY
     TYPE
 ORDER BY
     TYPE;
+/*
+ Query 19
+ From the previous output, translate the values for type to English, 
+ rename the column to transaction_type, round total_amount 
+ down to an integer
+ */

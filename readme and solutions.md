@@ -539,6 +539,24 @@ Expected result:
 971225	24	1
 971225	60	1
 ```
+#### Answer:
+```sql
+SELECT
+    `date`,
+    duration,
+    count(loan_id) AS number_of_loans
+FROM
+    loan
+WHERE
+    date LIKE '9712%'
+GROUP BY
+    `date`,
+    duration
+ORDER BY
+    `date`,
+    duration;
+```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 18
 
