@@ -333,7 +333,7 @@ FROM
 WHERE
     account_id = 34
 ```
-![image]()
+
 
 <img src="https://user-images.githubusercontent.com/63274055/147386623-5d1ae8e1-46dc-47de-ae27-bfe4ff5141a5.png" alt="Drawing" style="width: 200px;"/>
 
