@@ -423,7 +423,7 @@ LIMIT
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png" alt="Drawing" style="width: 250px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -726,7 +726,7 @@ WHERE
 ```
 
 
-<img src="https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png" alt="Drawing" style="width: 200px;"/>
+<img src="https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png" alt="Drawing" style="width: 300px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
