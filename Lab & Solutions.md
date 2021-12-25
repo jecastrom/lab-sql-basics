@@ -618,6 +618,8 @@ GROUP BY
 ORDER BY
     `TYPE`;
 ```
+![image](https://user-images.githubusercontent.com/63274055/147375587-cb25a152-0dc4-4f8a-8a85-96060e27cb47.png)
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 20
