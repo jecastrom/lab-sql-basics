@@ -264,9 +264,9 @@ ORDER BY
  */
 SELECT
     account_id,
-    CASE       
+    CASE
         WHEN `TYPE` = 'PRIJEM' THEN 'Incoming'
-        else 'Outgoing'
+        ELSE 'Outgoing'
     END AS transaction_type,
     floor(sum(amount)) AS 'total_amount'
 FROM
@@ -274,51 +274,84 @@ FROM
 WHERE
     account_id = 396
 GROUP BY
-    1,2;
-
-
+    1,
+    2;
 /*
-Query 20
-From the previous result, modify your query so that it returns 
-only one row, with a column for incoming amount, outgoing amount 
-and the difference.
-*/
- 
-SELECT account_id,    
-(select floor(sum(case when `TYPE` = 'PRIJEM' then amount end )))as incoming,
-(select floor(sum(case when `TYPE` = 'VYDAJ' then amount end)))as outgoing,                
-(select floor(sum(case when `TYPE` = 'PRIJEM' then amount end)) - floor(sum(case when `TYPE` = 'VYDAJ' then amount end))) as balance
-from trans
-where account_id = 396;
-
+ Query 20
+ From the previous result, modify your query so that it returns 
+ only one row, with a column for incoming amount, outgoing amount 
+ and the difference.
+ */
+SELECT
+    account_id,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            )
+    ) AS incoming,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS outgoing,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            ) - floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS balance
+FROM
+    trans
+WHERE
+    account_id = 396;
 /*
-Query 21
-Continuing with the previous example, rank the top 10 account_ids 
-based on their difference.
-*/
-SELECT account_id,   
-(select floor(sum(case when `TYPE` = 'PRIJEM' then amount end)) - floor(sum(case when `TYPE` = 'VYDAJ' then amount end))) as balance_top_10
-from trans
-group by account_id
-order by 2 desc
-limit 10;
-
-
-
-
-
-    
-
-    
-
-
-	
-    
-    
-    
-
-
-
-
-
- 
+ Query 21
+ Continuing with the previous example, rank the top 10 account_ids 
+ based on their difference.
+ */
+SELECT
+    account_id,
+    (
+        SELECT
+            floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'PRIJEM' THEN amount
+                    END
+                )
+            ) - floor(
+                sum(
+                    CASE
+                        WHEN `TYPE` = 'VYDAJ' THEN amount
+                    END
+                )
+            )
+    ) AS balance_top_10
+FROM
+    trans
+GROUP BY
+    account_id
+ORDER BY
+    2 DESC
+LIMIT
+    10;
