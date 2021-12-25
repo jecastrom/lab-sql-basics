@@ -94,7 +94,9 @@ FROM
 WHERE
     district_id = 72;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147351629-c494dbe3-83d0-4eeb-89b6-79fe44622ed9.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147351629-c494dbe3-83d0-4eeb-89b6-79fe44622ed9.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
@@ -120,17 +122,11 @@ ORDER BY
 LIMIT
     3;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386510-08658cff-bbdf-46d1-8b9a-27ed84ee40f8.png)
+
+<img src="https://user-images.githubusercontent.com/63274055/147386510-08658cff-bbdf-46d1-8b9a-27ed84ee40f8.png" alt="Drawing" style="width: 200px;"/>
 
 #### Answer:
-```sql
-SELECT
-    DISTINCT(STATUS)
-FROM
-    loan
-ORDER BY
-    STATUS ASC;
-```
+
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 
 ### Query 4
@@ -154,10 +150,12 @@ FROM
 ORDER BY
     STATUS ASC;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386534-9c96f948-3ac5-4d5c-b22e-5410b38b845f.png)
 
+
+<img src="https://user-images.githubusercontent.com/63274055/147386534-9c96f948-3ac5-4d5c-b22e-5410b38b845f.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
+
 ### Query 5
 
 What is the `loan_id` of the highest payment received in the `loan` table?
@@ -181,7 +179,10 @@ FROM
 ORDER BY
     payments ASC;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147358693-f964e6bd-bc4e-4700-83b5-4b136bec08b7.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147358693-f964e6bd-bc4e-4700-83b5-4b136bec08b7.png" alt="Drawing" style="width: 200px;"/>
+
 
 we can see that the lowest payment of 304 corresponds with the `loan_id` 6312.        
 If we run the same query in DESC order:      
@@ -194,7 +195,9 @@ FROM
 ORDER BY
     payments DESC;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147358732-3fba9730-ff4d-4120-a955-571ce334fcf5.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147358732-3fba9730-ff4d-4120-a955-571ce334fcf5.png" alt="Drawing" style="width: 200px;"/>
 
 The highest payment of 9910 corresponds to the `loan_id` 6415.     
 
@@ -212,8 +215,8 @@ WHERE
             loan
     );
 ```
-![image](https://user-images.githubusercontent.com/63274055/147358889-bdcd876c-6ac0-408b-98b3-02ca2d37267e.png)
 
+<img src="https://user-images.githubusercontent.com/63274055/147358889-bdcd876c-6ac0-408b-98b3-02ca2d37267e.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -244,7 +247,9 @@ ORDER BY
 LIMIT
     5;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386575-65a62bc3-81cb-46f4-9c23-ddcf387002b0.png)
+![image]()
+
+<img src="https://user-images.githubusercontent.com/63274055/147386575-65a62bc3-81cb-46f4-9c23-ddcf387002b0.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 7
@@ -273,7 +278,10 @@ ORDER BY
 LIMIT
     5;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386592-33330c7c-0442-40dc-9676-0fa6cce419d5.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147386592-33330c7c-0442-40dc-9676-0fa6cce419d5.png" alt="Drawing" style="width: 200px;"/>
+
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 8
@@ -299,8 +307,8 @@ FROM
 ORDER BY
     k_symbol ASC;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386608-5d76057a-6649-4a11-9ec0-0ac1f566c641.png)
 
+<img src="https://user-images.githubusercontent.com/63274055/147386608-5d76057a-6649-4a11-9ec0-0ac1f566c641.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 9
@@ -323,7 +331,9 @@ FROM
 WHERE
     account_id = 34
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386623-5d1ae8e1-46dc-47de-ae27-bfe4ff5141a5.png)
+![image]()
+
+<img src="https://user-images.githubusercontent.com/63274055/147386623-5d1ae8e1-46dc-47de-ae27-bfe4ff5141a5.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 10
@@ -348,7 +358,9 @@ WHERE
     order_id BETWEEN 29540
     AND 29560;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386639-69e959aa-787d-4e16-a1ae-f2876336e2ff.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147386639-69e959aa-787d-4e16-a1ae-f2876336e2ff.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 11
@@ -369,7 +381,9 @@ FROM
 WHERE
     account_to = 30067122;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386649-3e3205b0-51af-46fe-aad5-247b2ce020ea.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147386649-3e3205b0-51af-46fe-aad5-247b2ce020ea.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 12
@@ -406,7 +420,9 @@ ORDER BY
 LIMIT
     10;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147369288-a87a6a3d-b655-469e-8681-131918e1e3bb.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -439,8 +455,9 @@ WHERE
 GROUP BY
     district_id;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147371044-b1fba099-8e9d-4fff-a7d3-5f695df327ad.png)
 
+
+<img src="https://user-images.githubusercontent.com/63274055/147371044-b1fba099-8e9d-4fff-a7d3-5f695df327ad.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
 ### Query 14
@@ -464,7 +481,9 @@ FROM
 GROUP BY
     `type`;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147371454-e0a32df6-66e4-447d-a5bc-1a5ee7f79d99.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147371454-e0a32df6-66e4-447d-a5bc-1a5ee7f79d99.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -500,7 +519,9 @@ ORDER BY
 LIMIT
     10;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147372361-86417069-b35a-46b1-9798-862457d1d58a.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147372361-86417069-b35a-46b1-9798-862457d1d58a.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -531,7 +552,9 @@ GROUP BY
 ORDER BY
     `date` DESC;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147372691-4007b110-3532-48dc-906f-18b7fff4dce1.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147372691-4007b110-3532-48dc-906f-18b7fff4dce1.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -574,7 +597,9 @@ ORDER BY
     `date`,
     duration;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147375353-93b57472-9944-4cdf-9131-a004571b7e19.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147375353-93b57472-9944-4cdf-9131-a004571b7e19.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -603,7 +628,9 @@ GROUP BY
 ORDER BY
     TYPE;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147374666-2d54956b-ddaf-4ee0-99a0-b35c454d0ef7.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147374666-2d54956b-ddaf-4ee0-99a0-b35c454d0ef7.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -636,7 +663,9 @@ GROUP BY
 ORDER BY
     `TYPE`;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147375587-cb25a152-0dc4-4f8a-8a85-96060e27cb47.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147375587-cb25a152-0dc4-4f8a-8a85-96060e27cb47.png" alt="Drawing" style="width: 200px;"/>
 
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
@@ -694,9 +723,12 @@ FROM
 WHERE
     account_id = 396;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147385699-66ac4ea2-51a0-40e2-b2e4-8cc82c9090c3.png" alt="Drawing" style="width: 200px;"/>
 
 <a href="#Lab-SQL-basics-Selection-and-Aggregation">Go to top</a>
+
 ### Query 21
 
 Continuing with the previous example, rank the top 10 `account_id`s based on their difference.
@@ -744,6 +776,8 @@ ORDER BY
 LIMIT
     10;
 ```
-![image](https://user-images.githubusercontent.com/63274055/147386246-de63ac7d-15c4-450d-bbe6-35409d21cec7.png)
+
+
+<img src="https://user-images.githubusercontent.com/63274055/147386246-de63ac7d-15c4-450d-bbe6-35409d21cec7.png" alt="Drawing" style="width: 200px;"/>
 
 
