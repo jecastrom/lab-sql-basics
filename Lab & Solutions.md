@@ -651,9 +651,8 @@ Expected result:
 SELECT
     account_id,
     CASE
-        `TYPE`
-        WHEN `TYPE` = 'PRIJEM' THEN 'Outgoing'
-        WHEN `TYPE` = 'VYDAJ' THEN 'Incoming'
+        WHEN `TYPE` = 'PRIJEM' THEN 'Incoming'
+        ELSE 'Outgoing'
     END AS transaction_type,
     floor(sum(amount)) AS 'total_amount'
 FROM
@@ -661,9 +660,8 @@ FROM
 WHERE
     account_id = 396
 GROUP BY
-    `TYPE`
-ORDER BY
-    `TYPE`;
+    1,
+    2;
 ```
 
 
